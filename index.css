@@ -1,3 +1,5 @@
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+
 body {
     background-color: #eee;
     font-family: 'Roboto';
@@ -6,5 +8,21 @@ body {
 article {
     width: 1170px;
     margin: 50px auto;
+}
+
+article section {
     background-color: white;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 2px -2px #ccc;
+}
+
+article section.heading h1 {
+    border-bottom: solid 1px #ccc;
+    padding: 0.5em;
+    font-size: 20pt;
+}
+
+article section.heading h2 {
+    padding: 0.5em;
+    font-size: 18pt;
 }

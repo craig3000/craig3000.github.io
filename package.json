@@ -2,7 +2,7 @@
   "name": "craig3000.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/craig3000/craig3000.github.io.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Craig Fusco",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/craig3000/craig3000.github.io/issues"
   },
   "homepage": "https://github.com/craig3000/craig3000.github.io#readme",
   "devDependencies": {
-    "express": "^4.15.4"
+    "express": "4.15.4"
   }
 }

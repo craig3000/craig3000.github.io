@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 
-app.set('port', 3000);
+app.set('port', 300);
 app.use('/', express.static('.'));
 
 app.all('/*', function (req, res, next) {
