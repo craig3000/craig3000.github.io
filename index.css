@@ -1,0 +1,10 @@
+body {
+    background-color: #eee;
+    font-family: 'Roboto';
+}
+
+article {
+    width: 1170px;
+    margin: 50px auto;
+    background-color: white;
+}
